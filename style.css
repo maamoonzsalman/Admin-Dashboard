@@ -159,3 +159,103 @@ body {
     transition: background-color 0.3s ease; /* Smooth transition for hover effect */
     width: 100px;
 }
+
+.right-bottom-panel {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 10fr 1fr;
+    padding: 15px;
+    
+}
+
+.project-cells {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.ann-trending {
+    grid-column: 2 / 3;
+    margin-left: 15px;
+    display: grid;
+    grid-template-rows: 1fr 0.2fr 1fr;
+}
+
+#y-proj {
+    font-size: 21px;
+    font-weight: 501;
+}
+
+.cell {
+    
+    border-radius: 4%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 501;
+    font-size: 19px;
+    border-left: 8px solid #FFCC00;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+}
+
+#ann {
+    margin-left: 15px;
+    font-size: 21px;
+    font-weight: 501;
+}
+
+.title-container1, .title-container2 {
+    display: flex;
+    align-items: center;
+}
+
+.ann-section, .trending-section {
+    border-radius: 4%;
+}
+
+.ann-section {
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.ann-cell {
+    padding: 10%;
+    font-weight: 501;
+}
+
+.trending {
+    display: flex;
+    align-items: center;
+    font-size: 21px;
+    font-weight: 501;
+}
+
+.trending-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-weight: 501;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#morgan {
+    font-size: 24px;
+    font-weight: 501;
+    margin-bottom: 10%;
+}
+
+#hi {
+    font-weight: 501;
+}
+
+#name {
+    font-weight: 501;
+    font-size: 19px;
+}
