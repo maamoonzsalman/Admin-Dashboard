@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    font-family: 'Roboto';
+}
+
+.left-panel {
+    background-color: #0ea5e9;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container {
+    margin: 7%;
+    color: white;
+    
+}
+
+.left-top-section {
+    font-size: 25px;
+    font-weight: 501;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-text {
+    margin-left: 6%;
+}
+
+
+.left-middle-section {
+    margin-top: 25%;
+    font-size: 18px;
+    font-weight: 501;
+}
+
+.left-bottom-section {
+    margin-top: 25%;
+    font-size: 18px;
+    font-weight: 501;
+}
+
+.left-item {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.left-item-top {
+    display: flex;
+    align-items: center;
+}
+
+.left-word {
+    margin-left: 6%;
+}
+
+
+
+
+.right-panel {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+}
+
+.right-top-panel {
+    grid-row: 1 / 2;
+
+}
+
+.search {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+
+#search-icon {
+    margin-right: 100%;
+}
+
+#search-bar-container {
+    width: 55%;
+    margin-left: 2%;
+}
+
+.search-bar {
+    width: 90%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Adjust the radius to match the rounded corners */
+    background-color: #e0e7ff; /* Subtle background color */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Optional: inner shadow for depth */
+    font-size: 16px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+#notif-icon {
+    margin-left: 10%;
+}
+
+#pfp {
+    margin-left: 4%;
+}
+
+#name {
+    margin-left: 4%;
+}
+
+.right-bottom-panel {
+    grid-row: 2 / 3;
+    background-color: #e0e7ff;
+}
+
+.username {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.username-left {
+    display: flex;
+    margin-left: 4%;
+}
+
+.username-right {
+    display: flex;
+    align-items: center;
+    margin-right: 50%;
+}
+
+#hi-pfp {
+    margin-top: 1%;
+    margin-left: 3%;;
+}
+
+#morgan {
+    margin-top: 5%;
+}
+
+.btn-container {
+    margin-left: 8%;
+}
+
+.rounded-button {
+    background-color: #0ea5e9; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size of the button text */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    width: 100px;
+}
